@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /head.php
+Noindex: /head.php
+Disallow: /header-menu.php
+Noindex: /header-menu.php
+Disallow: /footer.php
+Noindex: /footer.php
+Disallow: /cookies/index.php
+Noindex: /cookies/index.php
+Disallow: /contact/confirmation.html
+Noindex: /contact/confirmation.html
+Disallow: /error404/index.html
+Noindex: /error404/index.html
+Sitemap: https://onejo.eu/sitemap.xml

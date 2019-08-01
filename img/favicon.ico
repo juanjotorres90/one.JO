@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.2 692.33">
+
+<ellipse id="body-logo" class="cls-1" cx="255.6" cy="390.83" rx="255" ry="241" fill="#000"/>
+<ellipse id="face-logo" class="cls-2" cx="255.6" cy="492.83" rx="231" ry="139" fill="#d42300"/>
+<circle id="foot-right" class="cls-1" cx="84.6" cy="631.83" r="60" fill="#000"/>
+<circle id="foot-left" class="cls-1" cx="431.6" cy="631.83" r="60" fill="#000"/>
+<ellipse id="ear-left" class="cls-2" cx="102.6" cy="149.83" rx="67" ry="168" transform="translate(-61.17 71.37) rotate(-30)" fill="#d42300"/>
+<ellipse id="ear-right" class="cls-2" cx="408.6" cy="149.83" rx="168" ry="67" transform="translate(74.54 428.78) rotate(-60)" fill="#d42300"/>
+<circle class="cls-3 eye-logo" cx="162.6" cy="479.83" r="60" fill="#fff"/>
+<circle class="cls-1 iris-logo" cx="162.6" cy="479.83" r="48"/>
+<circle id="pupil-left" class="cls-3 pupil-logo" cx="144.6" cy="463.83" r="15" fill="#fff"/>
+<circle class="cls-3 eye-logo" cx="352.6" cy="478.83" r="60" fill="#fff"/>
+<circle class="cls-1 iris.logo" cx="352.6" cy="478.83" r="48"/>
+<circle id="pupil-left" class="cls-3 pupil-logo" cx="334.6" cy="462.83" r="15" fill="#fff"/>
+
+</svg>
