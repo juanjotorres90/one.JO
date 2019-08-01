@@ -92,6 +92,10 @@ document.onmousemove = function(){
 var i=0;
 var text = "Hi! I'm here to build your website."
 
+function borrar() {
+document.getElementById("h2-animated").innerHTML = "";
+}
+
 function typing() {
   if(i<text.length){
     document.getElementById("h2-animated").innerHTML += text.charAt(i);
@@ -99,8 +103,25 @@ function typing() {
     setTimeout(typing,100);
     
   } 
+  
+  if (i==text.length) {
+    function borrar() {
+      document.getElementById("h2-animated").innerHTML = "";
+      }
+  setTimeout(borrar,2000)
+  }
+
 }
-typing();
+var myVar;
+
+function myFunction() {
+  myVar = setInterval(typing, 10000);
+}
+// setInterval(typing,5000);
+
+
+
+
 
 
 

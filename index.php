@@ -1,10 +1,10 @@
 <?php include("head.php"); ?>
 <link rel="stylesheet" href="css/style-min.css" type="text/css">
 <title>one.JO | We build beautiful websites | Home </title>
-<script src="js/script-min.js" defer></script>
+<script src="js/script.js" defer></script>
 </head>
 
-<body class="index light" onscroll="menuOn()">
+<body class="index light" onscroll="menuOn()" onload="myFunction()">
     <div id="cookieConsent">
 
         We use cookies to ensure you get the best experience on our website. <a href="cookies">More info.</a> <a class="cookieConsentOK">Accept cookies</a>
