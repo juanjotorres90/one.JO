@@ -2,9 +2,9 @@
             <footer>
                 <a href="https://www.facebook.com/webdevjuanjo" target="_blank" title="Facebook"><i
                         class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/webdevjuanjo" target="_blank" title="Twitter"><i
+                <a href="https://twitter.com/juanjocodes" target="_blank" title="Twitter"><i
                         class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/webdevjuanjo/" target="_blank" title="Instagram"><i
+                <a href="https://www.instagram.com/juanjo.codes/" target="_blank" title="Instagram"><i
                         class="fab fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/juanjotorreslopez/" target="_blank" title="LinkedIn"><i
                         class="fab fa-linkedin"></i></a>

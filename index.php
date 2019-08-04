@@ -107,7 +107,7 @@
             <figure>
                 <img class="image" src="img/team.jpg" alt="Fist shaking in group">
             </figure>
-            <h3>A world of endless possibilities</h3>
+            <h3>Discover a world of endless possibilities</h3>
 
 
         </section>
