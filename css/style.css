@@ -748,6 +748,7 @@ textarea {
 input:focus, textarea:focus {
   border-radius: 5px;
   border: 1px solid #1d5b69;
+  outline: none;
 }
 /* Text box only vertically resizable */
 textarea {
