@@ -14,5 +14,6 @@ Main features:
   - Advanced CSS3 tools.
   - Organized in php files.
   - Text typing effect and active links with JS.
-  - Font: Montserrat
-  - Error 404 page
+  - Font: Montserrat.
+  - Error 404 page.
+  - Fully responsive (Hamburger menu).
