@@ -1,6 +1,6 @@
 ﻿<?php
 $remitente = $_POST['email'];
-$destinatario = 'juanjotorres90@gmail.com';
+$destinatario = 'juanjotorres_90@hotmail.com';
 $asunto = 'Message from one.JO'; 
 if (!$_POST){
 ?>
