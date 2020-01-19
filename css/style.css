@@ -166,21 +166,24 @@ a {
   background-color: #1F363D;
   opacity: .9;
 }
+
 #link-logo-mobile {
   margin: 0 auto;
   display: block;
   text-align: center;
   padding: 1rem;
   color: #fff;
-font-family: "Ubuntu";
-width: fit-content;
-width: -moz-fit-content;
--webkit-transition: color 2s; 
-transition: color 2s; 
+  font-family: "Ubuntu";
+  width: fit-content;
+  width: -moz-fit-content;
+  -webkit-transition: color 2s;
+  transition: color 2s;
 }
+
 #link-logo-mobile:hover {
   color: #EA4B3C;
 }
+
 #logo-nav-bar-mobile {
   display: block;
   width: 50px;
@@ -201,15 +204,17 @@ transition: color 2s;
   line-height: 88.67px;
   display: none;
   font-size: 2rem;
-  -webkit-transition: color 2s; 
-  transition: color 2s; 
+  -webkit-transition: color 2s;
+  transition: color 2s;
 }
+
 #link-logo:hover {
   color: #EA4B3C;
 }
+
 #logo-nav-bar {
   width: 4rem;
-vertical-align: -30px;
+  vertical-align: -30px;
   z-index: 103;
   opacity: 0.9;
   /* display: none; */
@@ -528,11 +533,12 @@ section button {
   background-color: #1F363D;
   color: #fff;
   font-size: 1.2rem;
+  border: none;
+  transition: all 1s;
 }
 
 section button:hover {
   background-color: #d65050;
-
 }
 
 
@@ -571,13 +577,15 @@ section button:hover {
   grid-template-rows: auto auto auto;
   width: 95%;
 }
+
 .projects-main article:nth-of-type(1)>div div {
-padding: 0;
-margin: 0;
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows:auto 1fr;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
 }
+
 .projects-main article:nth-of-type(1)>div h4 {
   text-align: left;
 }
@@ -621,10 +629,12 @@ grid-template-rows:auto 1fr;
 .node {
   width: 50px !important;
 }
+
 .java {
   vertical-align: -0px;
   width: 28px !important;
 }
+
 .python {
   width: 30px !important;
 }
@@ -680,9 +690,10 @@ grid-template-rows:auto 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: .5rem;
 }
+
 .projects article:nth-of-type(1) h4 {
   text-align: left;
-} 
+}
 
 
 
@@ -745,11 +756,14 @@ textarea {
   margin-top: 10px;
   border-radius: 5px;
 }
-input:focus, textarea:focus {
+
+input:focus,
+textarea:focus {
   border-radius: 5px;
   border: 1px solid #1d5b69;
   outline: none;
 }
+
 /* Text box only vertically resizable */
 textarea {
   min-height: 100px;
@@ -836,8 +850,8 @@ textarea {
 }
 
 .about article p {
- padding: 1rem;
- text-align: justify;
+  padding: 1rem;
+  text-align: justify;
 }
 
 
@@ -1232,6 +1246,7 @@ html.transition *:after {
   margin: 0;
   padding: 0;
 }
+
 .toggle:before {
   content: 'AM';
   position: absolute;
@@ -1239,6 +1254,7 @@ html.transition *:after {
   top: 15px;
   font-size: 18px;
 }
+
 .toggle:after {
   content: 'PM';
   position: absolute;
@@ -1262,6 +1278,7 @@ html.transition *:after {
   transition: all 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transform: rotate(-45deg);
 }
+
 .toggle__handler .crater {
   position: absolute;
   background-color: #E8CDA5;
@@ -1269,18 +1286,21 @@ html.transition *:after {
   transition: opacity 200ms ease-in-out;
   border-radius: 100%;
 }
+
 .toggle__handler .crater--1 {
   top: 18px;
   left: 10px;
   width: 4px;
   height: 4px;
 }
+
 .toggle__handler .crater--2 {
   top: 28px;
   left: 22px;
   width: 6px;
   height: 6px;
 }
+
 .toggle__handler .crater--3 {
   top: 10px;
   left: 25px;
@@ -1353,49 +1373,60 @@ html.transition *:after {
   transform: translate3d(3px, 0, 0);
 }
 
-.switch input:checked + .toggle {
+.switch input:checked+.toggle {
   background-color: #749DD6;
 }
-.switch input:checked + .toggle:before {
+
+.switch input:checked+.toggle:before {
   color: #749ED7;
 }
-.switch input:checked + .toggle:after {
+
+.switch input:checked+.toggle:after {
   color: #ffffff;
 }
-.switch input:checked + .toggle .toggle__handler {
+
+.switch input:checked+.toggle .toggle__handler {
   background-color: #FFE5B5;
   transform: translate3d(40px, 0, 0) rotate(0);
 }
-.switch input:checked + .toggle .toggle__handler .crater {
+
+.switch input:checked+.toggle .toggle__handler .crater {
   opacity: 1;
 }
-.switch input:checked + .toggle .star--1 {
+
+.switch input:checked+.toggle .star--1 {
   width: 2px;
   height: 2px;
 }
-.switch input:checked + .toggle .star--2 {
+
+.switch input:checked+.toggle .star--2 {
   width: 4px;
   height: 4px;
   transform: translate3d(-5px, 0, 0);
 }
-.switch input:checked + .toggle .star--3 {
+
+.switch input:checked+.toggle .star--3 {
   width: 2px;
   height: 2px;
   transform: translate3d(-7px, 0, 0);
 }
-.switch input:checked + .toggle .star--4,
-.switch input:checked + .toggle .star--5,
-.switch input:checked + .toggle .star--6 {
+
+.switch input:checked+.toggle .star--4,
+.switch input:checked+.toggle .star--5,
+.switch input:checked+.toggle .star--6 {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
-.switch input:checked + .toggle .star--4 {
+
+.switch input:checked+.toggle .star--4 {
   transition: all 300ms 200ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-.switch input:checked + .toggle .star--5 {
+
+.switch input:checked+.toggle .star--5 {
   transition: all 300ms 300ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-.switch input:checked + .toggle .star--6 {
+
+.switch input:checked+.toggle .star--6 {
   transition: all 300ms 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
@@ -1528,8 +1559,9 @@ html.transition *:after {
     flex-direction: row;
     margin: auto;
     border-radius: 20px;
-    width:100%;
+    width: 100%;
   }
+
   .projects-main article:nth-of-type(1)>div div {
     width: 70%;
     margin: 0 auto;
@@ -1540,13 +1572,15 @@ html.transition *:after {
   .index article div div {
     width: 25%;
   }
-  .projects #logo-nav-bar{
+
+  .projects #logo-nav-bar {
     display: inline-block;
   }
+
   .projects #link-logo {
     display: inline;
   }
-  
+
   .projects .nav-desktop {
     display: flex;
   }
@@ -1583,24 +1617,30 @@ html.transition *:after {
   .member {
     width: 33%;
   }
+
   .about article {
     max-width: 70%;
   }
+
   #bg-logo-mobile {
     display: none;
   }
+
   .projects article:nth-of-type(1) {
     margin-top: 150px;
   }
+
   .cookies article {
     width: 70%;
     margin-top: 150px !important;
   }
+
   .projects-main article:nth-of-type(1)>div {
     width: 95%;
     padding: 0;
 
   }
+
   .projects-main article:nth-of-type(1)>div div {
     width: 31%;
   }
