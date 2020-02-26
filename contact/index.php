@@ -55,7 +55,7 @@
             <span><i class="fa fa-home"></i></span>
             <div class="contact-address">08018, Barcelona</div>
             <span><i class="fa fa-phone"></i></span>
-            <div class="contact-phone"><a href="tel:+34606508490">+34 606508490</a></div>
+            <div class="contact-phone"><a href="skype:live:juanjotorres_1?call">Skype Call</a></div>
             <span><i class="fa fa-envelope"></i></span>
             <div class="contact-email"><a href="mailto:juanjotorres_90@hotmail.com">info@onejo.eu</a></div>
 
